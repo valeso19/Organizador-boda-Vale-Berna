@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #0D1B2A;
+  --sky: #A9D6E5;
+  --dry: #A3B18A;
+  --white: #FFFFFF;
+}
+
+body { font-family: 'Poppins', sans-serif; }
+.dashboard { background: var(--white); padding: 20px; }
+.kpis { display: flex; gap: 10px; }
+.progress-bar { background: var(--dry); height: 10px; }
+.item { border: 1px solid #ddd; padding: 10px; margin: 5px 0; }
